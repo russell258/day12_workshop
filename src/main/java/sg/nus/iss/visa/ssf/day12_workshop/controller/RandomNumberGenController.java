@@ -15,7 +15,7 @@ import sg.nus.iss.visa.ssf.day12_workshop.service.RandomNumberService;
 
 
 @Controller //not using RestController cos we don't need json, we want html
-@RequestMapping(path = "/api")
+// @RequestMapping(path = "/api")
 public class RandomNumberGenController {
     
     //injecting service class dependency
